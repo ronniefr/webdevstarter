@@ -1,9 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+This template is supposed to save the initial pipeline building time 
 ## Getting Started
 
 First, run the development server:
+```bash
+npm install
+```
+this will install all dependencies
 
+Then make a .env file in the project root
+and add your database config key and clerk keys 
+```
+DATABASE_URL!="your postgres url from supabase"
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= GET YOURS FROM CLERK DASHBOARD
+CLERK_SECRET_KEY=GET YOURS FROM CLERK DASHBOARD
+```
 ```bash
 npm run dev
 # or
