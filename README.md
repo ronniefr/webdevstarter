@@ -15,6 +15,7 @@ DATABASE_URL!="your postgres url from supabase"
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= GET YOURS FROM CLERK DASHBOARD
 CLERK_SECRET_KEY=GET YOURS FROM CLERK DASHBOARD
 ```
+then run to preview
 ```bash
 npm run dev
 # or
